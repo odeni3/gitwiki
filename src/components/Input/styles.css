@@ -1,0 +1,17 @@
+.InputContainer{
+    border: 1px solid #FAFAFA;
+    border-radius: 20px;
+    height: 62px;
+    width: 40rem;
+    margin: 20px;
+    
+}
+
+.InputContainer input{
+    background: transparent;
+    border: 0;
+    width: 40rem;
+    height: 62px;
+    color: #FFFFFF;
+    font-size: 20px;
+}

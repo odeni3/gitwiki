@@ -1,10 +1,10 @@
 import "./styles.css"
 
-const Input = () => {
+const Input = ({value, onChange}) => {
     return (
-        <input>
-            Olá
-        </input>
+        <div className="InputContainer">
+            <input value={value} onChange={onChange} />
+        </div>
     );
 };
 

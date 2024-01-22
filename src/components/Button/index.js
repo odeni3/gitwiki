@@ -1,10 +1,10 @@
-import './styles.css'
+import { ButtonContainer } from './styles.js'
 
-const Button = () => {
+const Button = ({onClick}) => {
     return(
-        <button>
-            Olá
-        </button>
+        <ButtonContainer onClick={onClick}>
+            Buscar
+        </ButtonContainer>
     );
 };
 
